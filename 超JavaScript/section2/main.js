@@ -9,7 +9,7 @@ let tomatoCount7;
 let トマトカウント;
 
 let additioinResult = 2 + 5;
-console.log(additioinResult);
+// console.log(additioinResult);
 let result = 5;
 result = result + 10;
 result = result + 1;
@@ -31,15 +31,15 @@ Yoshipi`;
 const userInput = '10';
 let calcResult;
 calcResult = Number(userInput) + 10;
-console.log(calcResult);
+// console.log(calcResult);
 calcResult = parseInt(userInput) + 10;
-console.log(calcResult);
+// console.log(calcResult);
 calcResult = parseFloat(userInput) + 10;
 calcResult = +userInput + 10;
 const tenNumber = 10;
 calcResult = '10' + String(tenNumber);
 calcResult = '10' + tenNumber.toString();
-console.log(calcResult);
+// console.log(calcResult);
 
 let boolean = true;
 boolean = false;
@@ -48,7 +48,7 @@ let array = ['apple', 'banana', 'grape'];
 array[(1, 2, 3)];
 array = [1, 'apple'.toUpperCase, array];
 array = ['apple', 'banana', 'grape'];
-console.log(array[0]);
+// console.log(array[0]);
 array = [];
 array.push('apple');
 // 上記の文で一つずつ配列を入れることができる。
@@ -63,9 +63,25 @@ const coffee = {
     caffeine: 100,
   },
 };
-console.log(coffee.size);
+// console.log(coffee.size);
 coffee.isHot = false;
 coffee.varista = 'Yoshipi';
-console.log(coffee.varista);
+// console.log(coffee.varista);
 let userInfo = null;
 userInfo = undefined;
+
+const value = 'hello';
+function add(num1, num2) {
+  const value = num1 + num2;
+  console.log(value);
+  return value;
+}
+const returnedValue = add(2, 3);
+add(2, 3);
+add(6, 4);
+add(10, 6);
+console.log(returnedValue);
+// 行分コメントできる！
+/*
+コメントできる！閉じることが出来るので便利！
+*/
